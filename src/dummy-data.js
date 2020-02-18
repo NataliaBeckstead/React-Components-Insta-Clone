@@ -44,7 +44,110 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
+    },
+    {
+        username: "JavaScript",
+        thumbnailUrl: 'https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png',
+        imageUrl: 'https://websitesetup.org/wp-content/uploads/2019/10/JavaScript-Cheat-Sheet-PDF-1024x555.jpg',
+        likes: 5702,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "newbie",
+                text: "Omg that's scary!!!"
+            },
+            {
+                username: "pro",
+                text: "no big deal"
+            }
+        ]
+    },
+    {
+        username: "CSS",
+        thumbnailUrl: 'https://pluralsight.imgix.net/paths/path-icons/css-c9b214f0d7.png',
+        imageUrl: 'https://cdn.lynda.com/course/504266/504266-637152398725621198-16x9.jpg',
+        likes: 1008,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "newbie",
+                text: "Omg that's scary!!!"
+            },
+            {
+                username: "pro",
+                text: "no big deal"
+            }
+        ]
+    },
+    {
+        username: "C++",
+        thumbnailUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png',
+        imageUrl: 'https://d3ar1piqh1oeli.cloudfront.net/3/33/Newbpnodes.jpg/800px-Newbpnodes.jpg',
+        likes: 5702,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "newbie",
+                text: "Omg that's scary!!!"
+            },
+            {
+                username: "pro",
+                text: "no big deal"
+            }
+        ]
+    },
+    {
+        username: "React",
+        thumbnailUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png',
+        imageUrl: 'https://content.altexsoft.com/media/2017/05/Rendering.png',
+        likes: 5702,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "newbie",
+                text: "Omg that's scary!!!"
+            },
+            {
+                username: "pro",
+                text: "no big deal"
+            }
+        ]
+    },
+    {
+        username: "HTML",
+        thumbnailUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png',
+        imageUrl: 'https://cdn.educba.com/academy/wp-content/uploads/2018/09/Top-Uses-Of-HTML.jpg',
+        likes: 5702,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "newbie",
+                text: "Omg that's scary!!!"
+            },
+            {
+                username: "pro",
+                text: "no big deal"
+            }
+        ]
+    },
+    {
+        username: "Python",
+        thumbnailUrl: 'https://www.python.org/static/opengraph-icon-200x200.png',
+        imageUrl: 'https://image.slidesharecdn.com/stringsinpython-181228074123/95/python-strings-strings-in-python-python-tutorial-python-programming-simplilearn-1-638.jpg?cb=1545983072',
+        likes: 5702,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "newbie",
+                text: "Omg that's scary!!!"
+            },
+            {
+                username: "pro",
+                text: "no big deal"
+            }
+        ]
     }
+    
 ];
 
 export default dummyData;

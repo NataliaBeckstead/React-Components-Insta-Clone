@@ -15,7 +15,9 @@
   color: #262626;
 }
 .image-wrapper {
-  height: 50px;
+  font-size: 2rem;
+  padding-right: 25px;
+  margin-right: 20px;
 }
 
 .logo-image {
@@ -28,4 +30,5 @@
 
 .social {
   width: 50px;
+  font-size: 1.5rem;
 }
