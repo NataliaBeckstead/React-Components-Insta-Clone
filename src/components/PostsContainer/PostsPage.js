@@ -3,17 +3,28 @@
 import React, { useState } from "react";
 import Post from "./Post";
 import "./Posts.css";
-import dummyData from "../../dummy-data";
+//import dummyData from "../../dummy-data";
 // import data 
 
-const PostsPage = () => {
-  const [data] = useState(dummyData);
-  console.log(data);
+const PostsPage = (props) => {
+  //const [data] = useState(dummyData);
   // set up state for your data
+  // return (
+  //   <div className="posts-container-wrapper">
+  //     {data.map((item, index) =>
+  //       <Post post={item} key={index}/>)}
+  //   </div>
+  // );
+  const data = props.data.filter(post => {
+    return post.username.toLowerCase().includes(props.search.toLowerCase());
+  })
+
+  console.log(props.search);
   return (
     <div className="posts-container-wrapper">
-      {data.map((item, index) =>
-        <Post post={item} key={index}/>)}
+      {data.map((post, i) => {
+        return <Post key={i} post={post} />;
+      })}
     </div>
   );
 };
